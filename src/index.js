@@ -1,8 +1,8 @@
 import ReactDOM from 'react-dom/client';
-import Contact from './View/CONTACT/Contact';
-import Home from './View/HOME/Home';
-import About from './View/ABOUT/About';
-
+import Contact from './View/CONTACT/Contact.js';
+import Home from './View/HOME/Home.js'
+import About from './View/ABOUT/About.js';
+import "./index.css"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const cp=window.location.pathname;

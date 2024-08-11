@@ -1,12 +1,19 @@
-import React from 'react'
+
 import Navbar from "../../Components/Navbar.js"
-import "./../ABOUT/about.css"
+import AboutImg from "./About us page-pana.png"
+import "./../../index.js"
+import "./about.css"
 function About() 
 {
   return (
     <>
     <Navbar/>
-    <div className='about'>About</div>
+    <div className='about'>
+      <div className="headings">
+      <span className='heading'>About</span>
+      <img src={AboutImg} className='heading-img'/>
+      </div>
+    </div>
     </>
     )
 }
