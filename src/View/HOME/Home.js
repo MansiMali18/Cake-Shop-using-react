@@ -11,10 +11,11 @@ function Home() {
 
         <div class="info-container">
           <div className="info">
-            Yummy sweeties delivered to yout table !
+            Yummy sweeties delivered to your table !
+            <div class="caption">This cake is layered with love, frosted with happiness, and sprinkled with promises of a sweet life together </div>
             <div className='button'>
-              <button type="button" className='btn1'>Learn More</button>
-              <button  type="button" className='btn2'>Order Now</button>
+              <button type="button" className='btn-1'>Learn More</button>
+              <button  type="button" className='btn-2'>Order Now</button>
             </div>
           </div>
           <div class="cake-img">
