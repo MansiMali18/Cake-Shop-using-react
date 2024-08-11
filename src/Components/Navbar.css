@@ -1,0 +1,17 @@
+.navbar
+{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.name
+{
+    font-size: 30px;
+}
+.links
+{
+     font-size: 30px;
+     margin: 10px 20px;
+}
