@@ -3,3 +3,51 @@
     background-color: black;
     color: blanchedalmond;
 }
+.info-container
+{
+    width: 1400px;
+    display: flex;
+}
+.info
+{
+    font-style: italic;
+    color: rgb(246, 240, 241);
+    background-color: rgb(3, 1, 1);    
+    font-size: 30px;
+    font-weight: bold;
+    width: 700px;
+    margin: 20px 30px
+}
+.button
+{
+    display: flex;
+    margin: 20px 20px;
+}
+.btn-1
+{
+     background-color: white;
+     color: black;
+     width: 300px;
+     border-radius: 30px;
+     border:  0.5px, aqua , solid
+}
+.btn-1:hover
+{
+     background-color: white;
+     color: black;
+     width: 330px;
+}
+.btn-2
+{
+     background-color: aliceblue;
+     color: black;
+}
+
+.cake
+
+{
+    width: 650px;
+    object-fit:cover;
+   height: 600px;
+}
+

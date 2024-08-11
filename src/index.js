@@ -2,6 +2,7 @@ import ReactDOM from 'react-dom/client';
 import Contact from './View/CONTACT/Contact.js';
 import Home from './View/HOME/Home.js'
 import About from './View/ABOUT/About.js';
+import Services from './View/SERVICES/Services.js'
 import "./index.css"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -18,6 +19,10 @@ else if(cp=='/About')
 else if(cp=='/Contact')
 {
   root.render(<Contact/>)
+}
+else if(ap=='/Services')
+{
+  root.render(<Services />)
 }
 else
 {
