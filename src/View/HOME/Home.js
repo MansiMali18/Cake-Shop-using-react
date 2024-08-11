@@ -1,7 +1,7 @@
 
 import Navbar from '../../Components/Navbar';
 import HomeImg from "./Home.png"
-import cake from "./cake.png"
+import cake from "./cake-img.png"
 import "./../HOME/home.css"
 function Home() {
   return (
