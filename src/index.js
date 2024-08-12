@@ -4,8 +4,30 @@ import Home from './View/HOME/Home.js'
 import About from './View/ABOUT/About.js';
 import Services from './View/SERVICES/Services.js'
 import "./index.css"
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+const router= createBrowserRouter([
+  {
+    path:"/",
+    element:<Home/>,
+  },
+  {
+     path:"/About",
+    element:<About/>,
+  },
+  {
+     path:"/Contact",
+    element:<Contact/>,
+  },
+  {
+     path:"/Service",
+    element:<Services/>,
+  }
+])
+
+root.render(<RouterProvider router={router}/>)
+/*
 const cp=window.location.pathname;
 
 if(cp=='/')
@@ -28,3 +50,4 @@ else
 {
   root.render(<h1>NOt found</h1>)
 }
+*/
