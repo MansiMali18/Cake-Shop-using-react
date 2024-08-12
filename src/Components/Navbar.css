@@ -15,11 +15,12 @@ body
 }
 .logo
 {
-    width: 100px;
+    width: 150px;
     height: 70px;
     margin-left: 50px;
     border-radius: 400px;
     border:0.6px solid rgb(244, 23, 130);
+    filter: drop-shadow(rgb(139, 72, 72) 1rem 1rem 20px);
 }
 
 .name
