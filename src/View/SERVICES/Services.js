@@ -49,14 +49,38 @@ function Services() {
           ImgURL="https://www.fnp.com/images/pr/l/v200/pink-strawberry-cream-cake-1-kg-eggless_1.jpg"
           title="Pink Strawberry Cream Cake 1 Kg Eggless"
           description="Rs.1175"
-        /><Cards
+        />
+        <Cards
           ImgURL="https://www.fnp.com/images/pr/l/v200/in-love-strawberry-cake-1-kg_1.jpg"
           title="In Love Strawberry Cake 1 Kg"
           description="Rs.1475"
-        /><Cards
+        />
+        <Cards
           ImgURL="https://www.fnp.com/images/pr/l/v200/cream-drop-black-forest-cake-for-mom-1-kg_1.jpg"
           title="Cream Drop Strawberry cake 1 Kg"
           description="Rs.1375"
+        />
+      </div>
+      <div className="cards-main-container">
+        <Cards
+          ImgURL="https://www.fnp.com/images/pr/l/v200/pineapple-cake-half-kg-eggless_1.jpg"
+          title="Pineapple Cake Half kg Eggless"
+          description="Rs.549"
+        />
+       <Cards
+          ImgURL="https://www.fnp.com/images/pr/l/v200/fruit-overload-cake-half-kg_1.jpg"
+          title="Fruit Overload Cake Half Kg"
+          description="Rs.725"
+        />
+        <Cards
+          ImgURL="https://www.fnp.com/images/pr/l/v200/happy-emoji-pineapple-cake-half-kg_1.jpg"
+          title="Happy Emoji Pineapple Cake Half Kg"
+          description="Rs.625"
+        />
+        <Cards
+          ImgURL="https://www.fnp.com/images/pr/l/v200/tropical-bliss-pineapple-bento_1.jpg"
+          title="Tropical Bliss Pineapple Bento 250 Gram"
+          description="Rs.449"
         />
       </div>
     </div>
