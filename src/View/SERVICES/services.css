@@ -5,3 +5,10 @@ flex-direction: row;
 flex-wrap: wrap;
 justify-content: center;
 }
+.cards-main-container-2
+{
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
