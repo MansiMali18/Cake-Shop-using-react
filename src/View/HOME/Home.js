@@ -1,5 +1,6 @@
 
 import Navbar from '../../Components/Navbar';
+import {Link} from "react-router-dom"
 import HomeImg from "./Home.png"
 import cake from "./cake-img.png"
 import "./../HOME/home.css"
@@ -23,7 +24,7 @@ function Home() {
             </div>
           </div>
           <div class="cake-img">
-            <img src={cake} className='cake' />
+         <img src={cake} className='cake' />
           </div>
         </div>
       </div>
@@ -36,22 +37,22 @@ function Home() {
           <div className='card'>
             <h2>Chocolate flavour</h2>
             <img src={choco} className='home-cake' />
-            <button className='view-btn'>View more</button>
+            <Link to="/Services"><button className='view-btn'>View more</button></Link>
           </div>
           <div className='card'>
             <h2>Strawberry flavour</h2>
             <img src={straberry} className='home-cake' />
-            <button className='view-btn'>View more</button>
+            <Link to="/Services"><button className='view-btn'>View more</button></Link>
           </div>
           <div className='card'>
             <h2>Pineapple flavour</h2>
             <img src={pineapple} className='home-cake' />
-            <button className='view-btn'>View more</button>
+            <Link to="/Services"> <button className='view-btn'>View more</button></Link>
           </div>
           <div className='card'>
             <h2>Black forest flavour</h2>
             <img src={blackforest} className='home-cake'/>
-            <button className='view-btn'>View more</button>
+            <Link to="/Services"> <button className='view-btn'>View more</button></Link>
           </div>
 
         </div>
