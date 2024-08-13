@@ -4,11 +4,11 @@
 {
     background-color: #ffe6e6;
     color: black;
-    width:100%;
+    width:101.5%;
 }
 .info-container
 {
-    width: 100%;
+    width: 1400;
     display: flex;
 }
 .info
@@ -74,9 +74,10 @@
 .cake
 
 {
+  
     width: 700px;
-   height: 600px;
-   filter: drop-shadow(150px 100px 200px rgba(223, 5, 5, 0.5));
+   height: 650px;
+   filter: drop-shadow(100px 60px 150px rgba(223, 5, 5, 0.5));
 }
 .cake:hover
 {
