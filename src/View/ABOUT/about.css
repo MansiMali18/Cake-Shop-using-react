@@ -3,3 +3,48 @@
     margin-top: 100px;
     width: 100%;
 }
+.about-headings
+{
+text-align: center;
+width: 100%;
+font-size: 70px;
+font-family: 'Tangerine';
+background-color: #ffe6e6;
+color: rgb(178, 15, 15);
+padding-top: 20px;
+padding-bottom: 20px;
+margin-top: 50px;
+margin-bottom: 50px;
+display: flex;
+align-items: center;
+margin: 50 auto;
+}
+.about-heading-img
+{
+    height: 100px;
+    width: 150px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.section-1
+{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.left-img
+{
+    width: 500px;
+}
+.about-img
+{
+    width: 400px;
+    height: 400px;
+    margin: 10px auto;
+
+}
+.right-info
+{
+    width: 1400;
+}
