@@ -91,6 +91,31 @@ function Services() {
           description="Rs.449"
         />
       </div>
+      <div className="cake-heading" >
+        *****&emsp;&emsp;Black Forest Flavour&emsp;&emsp;*****
+      </div>
+      <div className="cards-main-container">
+        <Cards
+          ImgURL="https://www.fnp.com/images/pr/l/v20190529204632/frosty-mug-designer-truffle-cake-1-kg-eggless_1.jpg"
+          title="Frosty Mug Designer Truffle Cake 1 Kg Eggless"
+          description="Rs.1275"
+        />
+         <Cards
+          ImgURL="https://www.fnp.com/images/pr/l/v200/eggless-decadent-duo-of-choco-chip-n-black-forest-jar-cakes_1.jpg"
+          title="Eggless Decadent Duo of Choco Chip & Black Forest Jar Cakes"
+          description="Rs.525"
+        />
+         <Cards
+          ImgURL="https://www.fnp.com/images/pr/l/v20221205202102/black-forest-cream-cake-jar-eggless-set-of-2_1.jpg"
+          title="Black Forest Cream Cake Jar Eggless"
+           description="Rs.575"
+        />
+         <Cards
+          ImgURL="https://www.fnp.com/images/pr/l/v200/divine-black-forest-eggless-cake-half-kg_1.jpg"
+          title="Divine Black Forest Eggless Cake- Half Kg"
+          description="Rs.649"
+        />
+        </div>
     </div>
 
   )
