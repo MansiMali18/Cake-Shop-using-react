@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Kaushan+Script&family=Tangerine:wght@400;700&display=swap');
+
+.cake-heading
+{
+text-align: center;
+width: 100%;
+font-size: 70px;
+font-family: 'Tangerine';
+background-color: #ffe6e6;
+color: rgb(178, 15, 15);
+padding-top: 20px;
+padding-bottom: 20px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
 .cards-main-container
 { 
 display: flex;

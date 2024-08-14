@@ -6,6 +6,9 @@ function Services() {
   return (
     <div>
       <Navbar />
+      <div className="cake-heading" >
+        *****&emsp;&emsp;Chocolate Flavour&emsp;&emsp;*****
+      </div>
       <div className="cards-main-container">
         <Cards
           ImgURL="https://www.fnp.com/images/pr/l/v20221221172007/decorated-chocolate-truffle-cake-half-kg_1.jpg"
@@ -38,7 +41,9 @@ function Services() {
           description="Rs.755"
         />
       </div>
-
+      <div className="cake-heading" >
+        *****&emsp;&emsp;Strawberry Flavour&emsp;&emsp;*****
+      </div>
       <div className="cards-main-container">
         <Cards
           ImgURL="https://www.fnp.com/images/pr/l/v20221107183531/princess-theme-strawberry-cake-eggless-2-kg_1.jpg"
@@ -60,6 +65,9 @@ function Services() {
           title="Cream Drop Strawberry cake 1 Kg"
           description="Rs.1375"
         />
+      </div>
+      <div className="cake-heading" >
+        *****&emsp;&emsp;Pineapple Flavour&emsp;&emsp;*****
       </div>
       <div className="cards-main-container">
         <Cards
