@@ -20,7 +20,9 @@ function About()
         <img src="https://www.fnp.com/images/pr/l/v20220706181812/luxe-love-orchids-bouquet-truffle-cake_1.jpg" className="about-img"/>
         </div>
         <div className="right-info">
-          
+          <div className="our-features">
+            
+          </div>
         </div>
       </div>    
     </>

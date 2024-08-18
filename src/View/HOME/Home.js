@@ -29,11 +29,12 @@ function Home() {
         </div>
       </div>
       <div className='section-1'>
-        <span className="heading">
+       { /*<span className="heading">
           !!!!This week special offers!!!!
         </span>
-        <h1>🎂Order by flavour🎂</h1>
+        <h1>🎂Order by flavour🎂</h1>*/}
         <div className='card-container'>
+          <span className='heading'>🎂Order by flavour🎂 </span>
           <div className='card'>
             <h2>Chocolate flavour</h2>
             <img src={choco} className='home-cake' />
