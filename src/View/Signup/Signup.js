@@ -74,7 +74,7 @@ const Signup = () => {
       localStorage.setItem('users', JSON.stringify(users));
   
       toast.success("Sign Up Successful! 🎉", {
-        position: "top-right",
+        position: "top-center",
         autoClose: 3000,
       });
     } else {
