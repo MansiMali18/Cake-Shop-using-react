@@ -148,7 +148,7 @@ const Signup = () => {
           />
         </div>
 
-        <button type="submit">{isSignUp ? "Sign Up" : "Login"}</button>
+        <button type="submit" className="button-signup">{isSignUp ? "Sign Up" : "Login"}</button>
 
         <p onClick={() => setIsSignUp(!isSignUp)} className="toggle-link">
           {isSignUp
