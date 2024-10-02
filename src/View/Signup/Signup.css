@@ -28,7 +28,7 @@
     border-radius: 4px;
   }
   
-  button-signup {
+  .button-signup {
     width: 100%;
     padding: 10px;
     background-color: #e773a2;
@@ -39,7 +39,7 @@
     font-size: 16px;
   }
   
-  button-signup:hover {
+  .button-signup:hover {
     background-color: #591843;
   }
   
