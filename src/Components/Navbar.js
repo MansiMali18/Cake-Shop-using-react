@@ -2,6 +2,7 @@
 import "./Navbar.css";
 import {Link} from "react-router-dom"
 import logo from "./logo-removebg-preview.png"
+import usericon from "./user-icon.png"
 function Navbar() {
   return (
     <>
@@ -21,6 +22,9 @@ function Navbar() {
           </Link>
           <Link to="/Services"className='nav-links'>
           Services
+          </Link>
+          <Link to="/Signup">
+          <img src={usericon} className="user-icon"/>
           </Link>
       </div>
     </div>
